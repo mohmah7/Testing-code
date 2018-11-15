@@ -2,7 +2,7 @@ import sys
 
 while True:
   # output to stdout:
-  print "Yet another iteration ..."
+  print("Yet another iteration ...")
   try:
     # reading from sys.stdin (stop with Ctrl-D):
     number = raw_input("Enter a number: ")
@@ -14,4 +14,4 @@ while True:
     if number == 0:
       print >> sys.stderr, "0 has no inverse"
     else:
-      print "inverse of %d is %f" % (number, 1.0/number) 
+      print("inverse of %d is %f" % (number, 1.0/number))
