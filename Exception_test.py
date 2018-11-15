@@ -1,5 +1,5 @@
 import sys
-file_name = sys.argv[1]
+file_name =  "fibonacci.py"
 text = []
 try:
     fh = open(file_name, 'r')
