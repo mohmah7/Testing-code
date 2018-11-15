@@ -7,7 +7,7 @@ while True:
     # reading from sys.stdin (stop with Ctrl-D):
     number = raw_input("Enter a number: ")
   except EOFError:
-    print "\nciao"
+    print("\nciao")
     break
   else:
     number = int(number)
