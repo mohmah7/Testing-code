@@ -4,8 +4,8 @@ while True:
   # output to stdout:
   print("Yet another iteration ...")
   try:
-    reading from sys.stdin (stop with Ctrl-D):
-    number = raw_input("Enter a number: ")
+    # reading from sys.stdin (stop with Ctrl-D):
+    number = input("Enter a number: ")
   except EOFError:
     print("\nciao")
     break
