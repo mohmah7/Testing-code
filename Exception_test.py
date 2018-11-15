@@ -1,5 +1,5 @@
 import sys
-file_name =  "Index.HTML"
+file_name =  "index.html"
 text = []
 try:
     fh = open(file_name, 'r')
