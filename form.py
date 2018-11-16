@@ -34,7 +34,7 @@ def  fibonacci(req):
 	number = int(info['enternumber'])
 	
 	a , b , c = 0 , 1 , 0
-	while c < 6: 
+	while c < number: 
 		a , b = b , a + b
 		c += 1
 	result = a 
