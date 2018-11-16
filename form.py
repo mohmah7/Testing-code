@@ -33,7 +33,7 @@ def  fibonacci(req):
 	info = req.form
 	number = info['enternumber']
 	a , b , c = 0 , 1 , 0
-	while c < number: 
+	while c < 6: 
 		a , b = b , a + b
 		c += 1
 	result = a 
