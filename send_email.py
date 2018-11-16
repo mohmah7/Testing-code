@@ -21,7 +21,7 @@ while True:
 
 print("Message length is", len(msg))
 
-server = smtplib.SMTP('localhost')
+server = smtplib.SMTP('outlook.com')
 server.set_debuglevel(1)
 server.sendmail(fromaddr, toaddrs, msg)
 server.quit()
