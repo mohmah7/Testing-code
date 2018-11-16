@@ -22,6 +22,7 @@ def index():
    <P>
          <LABEL for="enternumber">Enter numbers:</LABEL>
 	 <INPUT type="text"  name ="enternumber"><BR>
+   </P>
 </FORM>
 </body>
 </html>
