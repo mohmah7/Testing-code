@@ -32,7 +32,7 @@ def index():
 def  fibonacci(req):
 	info = req.form
 	number = info['enternumber']
-	
+        result = number 
 	return """
 <html><head>
 <title> Fibonacci  Serious</title>
