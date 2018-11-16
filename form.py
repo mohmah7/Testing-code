@@ -36,7 +36,7 @@ def  fibonacci(req):
 	while c < number: 
 		a , b = b , a + b
 		c += 1
-        result = a 
+	result = a 
 	return """
 <html><head>
 <title> Fibonacci  Serious</title>
