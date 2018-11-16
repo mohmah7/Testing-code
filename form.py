@@ -18,9 +18,18 @@ def index():
 	<INPUT type="submit" value="Send"> <INPUT type="reset">
   </P>
 </FORM>
+<FORM value="form" action="fibonacci" method="post">
+   <P>
+         <LABEL for="enternumber">Enter numbers:</LABEL>
+	 <INPUT type="text"  name ="enternumber"><BR>
+</FORM>
 </body>
 </html>
 """
+
+def  fibonacci(req):
+	
+	
 
 def get_info(req):
 	info = req.form
