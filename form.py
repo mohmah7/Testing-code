@@ -21,7 +21,7 @@ def index():
 <FORM value="form" action="fibonacci" method="post">
    <P>
          <LABEL for="enternumber">Enter numbers:</LABEL>
-	 <INPUT type="text"  name ="enternumber"><BR>
+	 <INPUT type="integer"  name ="enternumber"><BR>
 	 <INPUT type="submit" value="Send">
    </P>
 </FORM>
