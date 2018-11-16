@@ -28,8 +28,23 @@ def index():
 """
 
 def  fibonacci(req):
+	info = req.form
+	number = info['enternumber']
 	
-	
+	return """
+<html><head>
+<title> Fibonacci  Serious</title>
+</head>
+<body>
+<h1>  The numbers are  </h1>
+<hr>
+Thanks for using our service:<br>
+The number you entered is : %s <br>
+Fibonacci is : %s <br>
+</body>
+</html>
+""" %(number, result)
+
 
 def get_info(req):
 	info = req.form
