@@ -21,7 +21,7 @@ def index():
 <FORM value="form" action="fibonacci" method="post">
    <P>
          <LABEL for="enternumber">Enter numbers:</LABEL>
-	 <INPUT type="integer"  name ="enternumber"><BR>
+	 <INPUT type="text "  name ="enternumber"><BR>
 	 <INPUT type="submit" value="Send">
    </P>
 </FORM>
@@ -31,7 +31,8 @@ def index():
 
 def  fibonacci(req):
 	info = req.form
-	number = info['enternumber']
+	number = int(info['enternumber'])
+	
 	a , b , c = 0 , 1 , 0
 	while c < 6: 
 		a , b = b , a + b
