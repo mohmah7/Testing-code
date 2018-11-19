@@ -6,4 +6,4 @@ try:
     server.starttls()
     # ...send emails
 except:  
-    print 'Something went wrong...'
+    print('Something went wrong...')
