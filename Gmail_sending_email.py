@@ -7,6 +7,6 @@ try:
     server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
     server.ehlo()
     server.login(gmail_user, gmail_password)
-    print(' welcome email , the  password is :%s',% gmail_password)
+    print(' welcome email , the  password is :%s'% gmail_password)
 except:  
-    print('Something went wrong...The password is%s', %  gmail_password )
+    print('Something went wrong...The password is%s' %  gmail_password )
