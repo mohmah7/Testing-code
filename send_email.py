@@ -21,7 +21,7 @@ while True:
 
 print("Message length is", len(msg))
 
-server = smtplib.SMTP('yahoo.com')
+server = smtplib.SMTP('mail.yahoo.com', 80)
 server.set_debuglevel(1)
 server.sendmail(fromaddr, toaddrs, msg)
 server.quit()
