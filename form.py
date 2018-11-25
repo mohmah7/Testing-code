@@ -48,6 +48,13 @@ def  fibonacci(req):
 Thanks for using our service:<br>
 The number you entered is : %s <br>
 Fibonacci is : %s <br>
+<FORM value="form" action="index" method="post">
+   <P>
+	 <INPUT type="submit" value="Return to index page">
+   </P>
+</FORM>
+
+
 </body>
 </html>
 """ %(number, result)
