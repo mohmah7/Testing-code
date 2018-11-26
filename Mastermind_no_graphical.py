@@ -114,7 +114,7 @@ def view_guesses():
    """ The list of all guesses with the corresponding evaluations 
 is printed """
    #print("Previous Guesses:")
-   #for guess in guesses:
+   for guess in guesses:
       guessed_colours = guess[0]
       #for c in guessed_colours:
          #print(c, end=" ")
