@@ -108,7 +108,18 @@ previous guesses """
 def show_current_guess(new_guess):
    """ The current guess is printed to stdout """
    #print("New Guess: ",end=" ")
-
+    return """
+<html><head>
+<title>Mastermind the game</title>
+</head>
+<body>
+<h1>The colors are</h1>
+<hr>
+Thanks for  playing that game :<br>
+The colors are : %s <br>
+</body>
+</html>
+""" %(first)
    #for c in new_guess:
       #print(c, end=" ")
    #print()
