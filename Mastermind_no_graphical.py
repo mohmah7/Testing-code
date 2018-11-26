@@ -104,23 +104,23 @@ previous guesses """
 
 def show_current_guess(new_guess):
    """ The current guess is printed to stdout """
-   print("New Guess: ",end=" ")
+   #print("New Guess: ",end=" ")
 
    for c in new_guess:
-      print(c, end=" ")
-   print()
+      #print(c, end=" ")
+   #print()
 
 def view_guesses():
    """ The list of all guesses with the corresponding evaluations 
 is printed """
-   print("Previous Guesses:")
+   #print("Previous Guesses:")
    for guess in guesses:
       guessed_colours = guess[0]
       for c in guessed_colours:
-         print(c, end=" ")
+         #print(c, end=" ")
       for i in guess[1]:
-         print(" %i " % i, end=" ")
-      print()
+         #print(" %i " % i, end=" ")
+      #print()
 
 if __name__ == "__main__":
    colours = ["red","green","blue","yellow","orange","pink"]
