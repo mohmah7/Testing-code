@@ -49,11 +49,14 @@ def initial_evaluation():
 	
 
 
-def get_evaluation():
+def get_evaluation(req):
    """ asks the human player for an evaluation """
+   info =  req.form
    show_current_guess(new_guess[0])
-   rightly_positioned = int(input("Blacks: "))
-   permutated = int(input("Whites: "))
+   rightly_positioned =int(info['enternumberBlacks'])
+   permutated = int(info['enternumberWhites'])
+   #rightly_positioned = int(input("Blacks: "))
+   #permutated = int(input("Whites: "))
    return (rightly_positioned, permutated)
 
 def new_evaluation(current_colour_choices):
@@ -80,7 +83,7 @@ and creates a new guess """
 def check(p1, p2):
    """ check() calculates the number of bulls (blacks) and cows (whites)
 of two permutations """
-   blacks = 0
+   blacks = 0i
    whites = 0
    for i in range(len(p1)):
       if p1[i] == p2[i]:
