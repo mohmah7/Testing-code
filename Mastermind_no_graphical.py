@@ -83,7 +83,7 @@ and creates a new guess """
 def check(p1, p2):
    """ check() calculates the number of bulls (blacks) and cows (whites)
 of two permutations """
-   blacks = 0i
+   blacks = 0
    whites = 0
    for i in range(len(p1)):
       if p1[i] == p2[i]:
