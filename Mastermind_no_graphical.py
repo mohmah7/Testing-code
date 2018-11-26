@@ -33,7 +33,7 @@ def initial_evaluation():
 <title>Formular</title>
 </head>
 <body>
-<FORM value="form" action="fibonacci" method="post">
+<FORM value="form" action="__main__" method="post">
    <P>
          <LABEL for="enternumberBlacks">Enter numbers Blacks:</LABEL>
 	 <INPUT type="text "  name ="enternumberBlacks"><BR>
