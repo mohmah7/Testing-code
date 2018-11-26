@@ -27,6 +27,27 @@ sense. 3 blacks and 1 white make no sense for example. """
       return False
    return True
 
+def initial_evaluation():
+	return """
+<html><head>
+<title>Formular</title>
+</head>
+<body>
+<FORM value="form" action="fibonacci" method="post">
+   <P>
+         <LABEL for="enternumberBlacks">Enter numbers Blacks:</LABEL>
+	 <INPUT type="text "  name ="enternumberBlacks"><BR>
+	 <LABEL for="enternumberWhites">Enter numbers Whites:</LABEL>
+	 <INPUT type="text "  name ="enternumberWhites"><BR>
+	 <INPUT type="submit" value="Send">
+   </P>
+</FORM>
+</body>
+</html>
+	
+	
+
+
 def get_evaluation():
    """ asks the human player for an evaluation """
    show_current_guess(new_guess[0])
